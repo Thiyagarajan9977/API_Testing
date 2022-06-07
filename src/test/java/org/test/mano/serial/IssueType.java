@@ -1,0 +1,14 @@
+package org.test.mano.serial;
+
+public class IssueType {
+	
+    private String name;
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
+    }
+
+}

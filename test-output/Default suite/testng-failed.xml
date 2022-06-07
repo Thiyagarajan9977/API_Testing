@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.test.udmey.hamcrest.HamcrestValidation">
+        <methods>
+          <include name="everyItemStartswithMethod"/>
+          <include name="hasSizeMethod"/>
+          <include name="hasvalueMethod"/>
+          <include name="containsMethod"/>
+          <include name="equalToCollectionsEMPTY_MAPMethod"/>
+          <include name="haskeymethod"/>
+          <include name="hasentryMethod"/>
+          <include name="equalToCollectionsNotEMPTY_MAPMethod"/>
+          <include name="isNotemptyarrayMethod"/>
+          <include name="isNotemptyMethod"/>
+          <include name="alloffMethod"/>
+          <include name="ContainsInanyOrder"/>
+          <include name="anyoffMethod"/>
+          <include name="emptyMethod"/>
+        </methods>
+      </class> <!-- org.test.udmey.hamcrest.HamcrestValidation -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
